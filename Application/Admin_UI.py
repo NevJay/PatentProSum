@@ -119,14 +119,14 @@ def document_to_text(doc, max_tokens, model_type):
 
 specialized = pd.DataFrame(
     {
-        "METRIC": ["ROUGE-1", "ROUGE-2", "ROUGE-L", "ROUGE-Lsum",  "BERTSCORE", "METEOR"],
+        "METRIC": ["ROUGE-1", "ROUGE-2", "ROUGE-L", "ROUGE-Lsum", "BERTSCORE", "METEOR"],
         "SCORE": [0.33, 0.25, 0.14, 0.29, 0.81, 0.53],
     }
 )
 
 generalized = pd.DataFrame(
     {
-        "METRIC": ["ROUGE-1", "ROUGE-2", "ROUGE-L", "ROUGE-Lsum",  "BERTSCORE", "METEOR"],
+        "METRIC": ["ROUGE-1", "ROUGE-2", "ROUGE-L", "ROUGE-Lsum", "BERTSCORE", "METEOR"],
         "SCORE": [0.33, 0.25, 0.14, 0.29, 0.81, 0.53],
     }
 )
